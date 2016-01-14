@@ -1,0 +1,24 @@
+{
+  "name": "llog",
+  "version": "0.5.0",
+  "description": "little way to log file and robust",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/struCoder/llog.git"
+  },
+  "keywords": [
+    "log",
+    "nodejs-log",
+    "logs"
+  ],
+  "author": "zdwloveschina@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/struCoder/llog/issues"
+  },
+  "homepage": "https://github.com/struCoder/llog#readme"
+}
