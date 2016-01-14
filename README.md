@@ -18,10 +18,11 @@ http.createServer(app).listen(port, function(){
 ```
 
 ```javascript
-functions:
->  logger.info();
-logger.error();
-logger.warn();
-logger.fatal();
-logger.debug();
+functions:  
+
+logger.info();  
+logger.error();  
+logger.warn();  
+logger.fatal();  
+logger.debug();  
 ```
