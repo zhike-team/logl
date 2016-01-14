@@ -1,6 +1,6 @@
 {
   "name": "llog",
-  "version": "0.5.0",
+  "version": "1.0.0",
   "description": "little way to log file and robust",
   "main": "index.js",
   "scripts": {
