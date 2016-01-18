@@ -1,4 +1,6 @@
-'use strict'
+'use strict';
+
+const log = require('util').log;
 
 exports.getLogger = function(name) {
   const pid = process.pid;
