@@ -23,6 +23,11 @@ http.createServer(app).listen(port, function(){
 })
 ```
 
+Why i write this package?
+=========================
+if you project use pm2, we do not need other log package, because pm2 will according to
+the io form console to log and save it in Dir `.pm2/log/`.
+
 ```javascript
 functions:
 

@@ -1,6 +1,6 @@
 {
   "name": "logl",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "little way to log file and robust",
   "main": "index.js",
   "scripts": {
