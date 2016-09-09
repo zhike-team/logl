@@ -1,6 +1,6 @@
 'use strict';
 
-const colors = require('colors');
+const colors = require('colors/safe');
 
 colors.setTheme({
   silly: 'rainbow',
@@ -20,9 +20,10 @@ exports.getLogger = function(name) {
   const pid = process.pid;
   function log() {
     let args = [].slice.call(arguments);
-    let currentTime = new Date();
+    let currentTime = new Date;
     let time = `${currentTime.getFullYear()}-${currentTime.getMonth() + 1}-${currentTime.getDate()} ${currentTime.getHours()}:${currentTime.getMinutes()}:${currentTime.getSeconds()}`;
-    console.log(`${time} - ${args.join(' ')}`);
+    args.unshift(`${time} -`);
+    console.log.apply(null, args);
   }
   return {
     info: function() {
