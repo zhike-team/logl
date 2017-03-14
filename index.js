@@ -30,7 +30,6 @@ exports.getLogger = function(name) {
       let _log = [colors.info('info '), name, pid];
       let args = [].slice.call(arguments);
       log.apply(null, _log.concat(args));
-
     },
     error: function() {
       let _log = [colors.error('error'), name, pid];

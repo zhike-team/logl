@@ -1,4 +1,4 @@
-logl
+Logl
 ======
 a little way to log
 
